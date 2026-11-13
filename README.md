@@ -73,4 +73,6 @@ You can watch the application walkthrough directly below (`demo.mp4` is included
 
 https://github.com/Szarlej4/smartcommute-mvp/raw/main/demo.mp4
 
+https://github.com/user-attachments/assets/022f9c08-f30a-4b47-8dda-3a72c7e5c686
+
 * **YouTube:** [Watch SmartCommute MVP Demo](https://www.youtube.com/watch?v=zKoftxYs0SE)
