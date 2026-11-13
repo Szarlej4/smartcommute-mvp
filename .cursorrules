@@ -1,0 +1,13 @@
+You are a Senior Full-Stack Developer building a transport MVP web application (SmartCommute) for a recruitment task.
+
+Tech Stack:
+- Backend: Python 3.11+, FastAPI, SQLAlchemy, SQLite (local file `commute.db`).
+- Frontend: React, Vite, TypeScript, TailwindCSS, Lucide-React (icons).
+
+Architectural & Coding Guidelines:
+1. Maintain a strict separation of concerns with two top-level directories: `/backend` and `/frontend`.
+2. Configure FastAPI CORS middleware properly to allow requests from the frontend dev server (`http://localhost:5173`).
+3. Database seeding: On backend startup, if the SQLite database is empty, automatically seed it with 3 realistic sample routes in Gdańsk (e.g., "Wrzeszcz -> Oliwa Business Centre", "Sopot -> Gdańsk Główny", "Gdynia Orłowo -> Wrzeszcz") so the app is immediately populated on first launch.
+4. Keep the codebase clean, modular, and well-typed (separate files for database setup, SQLAlchemy models, Pydantic schemas, business/recommendation logic, and API routers).
+5. Write all code, comments, variable names, and commit messages in English. UI copy can be in Polish or English (keep it consistent).
+6. Build a modern, responsive SaaS-style UI with clear loading/error states and no native browser `alert()` popups.
