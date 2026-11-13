@@ -38,7 +38,7 @@ python -m venv .venv
 # (macOS/Linux): source .venv/bin/activate
 
 pip install -r requirements.txt
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 * The API will be available at `http://127.0.0.1:8000`
 * Interactive Swagger UI documentation: `http://127.0.0.1:8000/docs`
@@ -67,3 +67,10 @@ npm run dev
 
 ## 🤖 How AI Tools Were Used
 This project was built using an AI-first workflow (Cursor + LLM pair programming). I used AI to generate the full-stack codebase (FastAPI backend and React/TypeScript frontend), while my role focused on defining the product logic, reviewing the output, catching calculation gaps (such as adding customizable `trips_per_week` and the `4.33` monthly weighting factor), testing endpoints via Swagger UI, and managing the project environment and repository setup.
+
+## 🎥 Demo
+You can watch the application walkthrough directly below (`demo.mp4` is included in the root of this repository) or via YouTube:
+
+https://github.com/Szarlej4/smartcommute-mvp/raw/main/demo.mp4
+
+* **YouTube:** [Watch SmartCommute MVP Demo](https://www.youtube.com/watch?v=zKoftxYs0SE)
